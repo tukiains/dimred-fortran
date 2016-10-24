@@ -4,7 +4,7 @@ How to run the program
 
 - The program can be launched with:
 
-./test_final
+./test_dimred
 
 The program then asks user to give the noise level
 and number of principal components as an input.

@@ -2,8 +2,8 @@
 Location of the files
 ---------------------
 
-- source files: in the (root) folder /special_assignment
+- source files: ../dimred-fortran/src/
 
-- input files: same as above
+- input files: ../dimred_fortran/ 
 
-- output files: /special_assignment/output
+- output files: ../dimred-fortran/output/

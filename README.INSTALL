@@ -1,0 +1,18 @@
+
+How to compile
+--------------
+
+Compile all modules with:
+
+make 
+
+
+Requirements
+------------
+
+- gfortran 
+
+The program uses Fortran 2003 standard (-std=f2003 when compiling). So you
+need relatively new gfortran version (tested with the gcc version 4.6.3 and 4.8.4).
+
+  

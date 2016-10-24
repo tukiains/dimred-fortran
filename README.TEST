@@ -1,0 +1,55 @@
+
+How to run the program
+----------------------
+
+- The program can be launched with:
+
+./test_final
+
+The program then asks user to give the noise level
+and number of principal components as an input.
+
+The program then writes info about the 
+(iterative) spectral fitting on the screen.
+
+The results are written in the /output folder 
+as ascii files.
+
+Example session
+---------------
+
+$ ./test_dimred
+
+ Give std of noise. Signal is between 0-1 and the noise is additive ~ N(0,std^2)
+ Common value is e.g. 0.001 but you can try different values..
+0.0001
+  Give number of principal components (~2-5 is good)
+4
+ ----------------------------------
+ Iteration     RSS          lam
+ ----------------------------------
+     0    5632.5160474     1.0E-03
+     1       1.7418739     1.0E-03
+     2       1.1762046     1.0E-04
+     3       1.0278183     1.0E-05
+     4       1.0022684     1.0E-06
+     5       1.0022635     1.0E-07
+     6       1.0022641     1.0E-07
+
+$ ls /output
+air.dat  alt.dat  C.dat  d.dat  dens.dat  dummy.txt  P.dat  prior.dat  profile.dat  q.dat  r.dat  t.dat  wn.dat
+
+where the output files are:
+
+air.dat     - air density profile
+alt.dat     - altitudes (layer mid points)
+C.dat       - prior covariance matrix
+d.dat       - number of used principal components
+dens.dat    - "true" CH4 profile 
+P.dat       - projection matrix
+prior.dat   - CH4 prior profile
+profile.dat - retrieved CH4 profile
+q.dat       - singular values of decomposed C
+r.dat       - residuals of the fit
+t.dat       - simulated transmittance
+wn.dat      - wavenumber vector

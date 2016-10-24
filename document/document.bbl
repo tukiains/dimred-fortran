@@ -1,0 +1,61 @@
+\begin{thebibliography}{8}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cui et~al.(2014)Cui, Martin, Marzouk, Solonen, and Spantini]{CuiEtAl}
+T.~Cui, J.~Martin, Y.~M. Marzouk, A.~Solonen, and A.~Spantini.
+\newblock Likelihood-informed dimension reduction for nonlinear inverse
+  problems.
+\newblock \emph{Inverse Problems}, 30\penalty0 (11):\penalty0 114015 pp. 28,
+  2014.
+\newblock ISSN 0021-9991.
+\newblock \doi{doi:10.1088/0266-5611/30/11/114015}.
+\newblock URL \url{http://iopscience.iop.org/0266-5611/30/11/114015/}.
+
+\bibitem[Golub and Van~Loan(1996)]{Golub}
+G.~H. Golub and C.~F. Van~Loan.
+\newblock \emph{Matrix Computations}.
+\newblock The Johns Hopkins University Press, Baltimore and London, 3 edition,
+  1996.
+
+\bibitem[Goody and Yung(1995)]{Goody95}
+R.~M. Goody and Y.~L. Yung.
+\newblock \emph{Atmospheric radiation: Theoretical basis}.
+\newblock Oxford University Press, New York, 2 edition, 1995.
+
+\bibitem[Levenberg(1944)]{Levenberg44}
+K.~Levenberg.
+\newblock A method for the solution of certain problems in least squares.
+\newblock \emph{Quart. Appl. Math.}, 2:\penalty0 164--168, 1944.
+
+\bibitem[Liou(2002)]{Liou02}
+K.~N. Liou.
+\newblock \emph{An introduction to Atmospheric Radiation}.
+\newblock Elsevier, New York, 2002.
+
+\bibitem[{Marquardt}(1963)]{Marquardt63}
+D.~W. {Marquardt}.
+\newblock {An Algorithm for Least-Squares Estimation of Nonlinear Parameters}.
+\newblock \emph{J. Soc. Indust. Appl. Math.}, 11:\penalty0 431--44, 1963.
+
+\bibitem[Marzouk and Najm(2009)]{MarzoukNajm}
+Y.~M. Marzouk and H.~N. Najm.
+\newblock Dimensionality reduction and polynomial chaos acceleration of
+  bayesian inference in inverse problems.
+\newblock \emph{Journal of Computational Physics}, 228\penalty0 (6):\penalty0
+  1862 – 1902, 2009.
+\newblock ISSN 0021-9991.
+\newblock \doi{http://dx.doi.org/10.1016/j.jcp.2008.11.024}.
+\newblock URL \url{http://hdl.handle.net/1721.1/59814}.
+
+\bibitem[Press et~al.(1992)Press, Teukolsky, Vetterling, and
+  Flannery]{PressEtAl92}
+W.~H. Press, S.~A. Teukolsky, W.~T. Vetterling, and B.~P. Flannery.
+\newblock \emph{{Numerical Recipes in FORTRAN, The Art of Scientific
+  Computing}}.
+\newblock Clarendon Press, Oxford, 1992.
+
+\end{thebibliography}
